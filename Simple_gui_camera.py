@@ -1,17 +1,15 @@
 from tkinter.constants import CENTER, NW
-import numpy as np
 from ttkbootstrap import *
 import cv2,threading
 from win10toast import ToastNotifier
 from tkinter import *
-from tkinter import messagebox
 from PIL import Image,ImageTk
 
 class window:
     i=0
     def __init__(self,root):
         self.root=root
-        self.root.title('Color Detector')
+        self.root.title('Snapshort capturer')
         # self.root.geometry('500x500')
         self.root.resizable(False,False)
         # ttk.Button(self.root,text='QUIT',command=self.root.quit).pack()
